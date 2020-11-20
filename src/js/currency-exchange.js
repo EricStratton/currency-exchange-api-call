@@ -5,10 +5,11 @@ export default class CurrencyExchange {
     this.exchangeValue = 'test';
   }
 
-  calcExchangeValue() {
-
+  addUSD() {
+    
   }
 
-
-
+  calcExchangeValue() {
+    return this.exchangeValue = USD*response.conversion_rates[`${otherCountry}`];
+  }
 }
