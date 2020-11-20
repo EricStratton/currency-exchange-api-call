@@ -11,6 +11,8 @@ import CurrencyService from './services/currency-service.js';
 function calcExchange(response, USD, otherCountry) {
   if (response.conversion_rates) {
     $('#printExchange').text(USD*response.conversion_rates[`${otherCountry}`]);
+  } else {
+    $('#printErrors').text(`Error: ${response.result}`);
   }
 }
 
