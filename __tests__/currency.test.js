@@ -9,7 +9,7 @@ describe ('CurrencyExchange', () => {
   });
 
   test('should correct add user input USD value to currency exhange object', () => {
-    expect(exchange.USD).toEqual();
+    expect(exchange.USD).toEqual(10);
   });
 
 
