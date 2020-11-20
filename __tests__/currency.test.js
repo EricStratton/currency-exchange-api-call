@@ -8,11 +8,13 @@ describe ('CurrencyExchange', () => {
     exchange = new CurrencyExchange(10, "EUR")
   });
 
-  test('should correct add user input USD value to currency exhange object', () => {
+  test('should correctly add user input USD value to currency exhange object', () => {
     expect(exchange.USD).toEqual(10);
   });
 
-
+  test('should correctly add user input other country currency code in string formatt to exhange object', () => {
+    expect(exchange.otherCountry).toEqual("EUR");
+  });
 
   test('should correctly calculate total other currency amount based on user input USD amount', () => {
     expect(exchange.exchangeValue).toEqual(10*0.8440);
