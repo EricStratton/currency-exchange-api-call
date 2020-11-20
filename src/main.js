@@ -10,7 +10,7 @@ import CurrencyService from './services/currency-service.js';
 function calcExchange(response, USD, otherCountry) {
   if (response.conversion_rates) {
     if (isNaN(response.conversion_rates[`${otherCountry}`])) {
-      return $('#printErrors').text("We are sorry. The currency you selected is not currently available for conversion.")
+      return $('#printErrors').text("We are sorry. The currency you selected is not currently available for conversion.");
     }
     $('#printExchange').text((USD*response.conversion_rates[`${otherCountry}`]) );
   } else {
@@ -31,7 +31,6 @@ $(document).ready(function() {
     CurrencyService.getCurrency()
       .then(function(response) {
         calcExchange(response, USD, otherCountry);
-        console.log(response);
       });
 
   });
