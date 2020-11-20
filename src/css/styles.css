@@ -28,7 +28,6 @@ select#otherCountry {
   border: 1px solid #ccc;
 }
 
-
 input[type=number] {
   padding: 5px;
 }
@@ -43,6 +42,11 @@ button[type=submit] {
   font-size: 1.5em;
   margin-top: 1.5em;
   margin-left: 50px;
+}
+
+#image {
+  margin-left: 1500px;
+  margin-top: -400px;
 }
 
 img {
