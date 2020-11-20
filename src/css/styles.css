@@ -1,0 +1,21 @@
+body {
+  background-color: #e6e6e6;
+}
+
+.jumbotron {
+  background-color: #2d8659;
+}
+
+#userInput {
+  box-sizing: border-box;
+  width: 400px;
+  padding: 25px;
+}
+
+input[type=number] {
+  padding: 5px;
+}
+
+#otherCountry {
+  padding: 5px;
+}
