@@ -6,8 +6,11 @@ body {
 .jumbotron {
   background-color: #2d8659;
   color: #ccc;
-  font-weight: bolder;
   font-style: oblique;
+}
+
+.jumbotron h1 {
+  font-size: 4em;
 }
 
 #userInput {
@@ -15,6 +18,7 @@ body {
   width: 400px;
   padding: 25px;
   margin-top: 100px;
+  font-size: 1em;
 }
 
 select#otherCountry {
@@ -24,14 +28,21 @@ select#otherCountry {
   border: 1px solid #ccc;
 }
 
+
 input[type=number] {
   padding: 5px;
 }
 
 button[type=submit] {
   width: 200px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 19px;
+}
+
+.results {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  margin-left: 50px;
 }
 
 img {
