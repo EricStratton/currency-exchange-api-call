@@ -20,13 +20,10 @@ $(document).ready(function() {
 
     const otherCountry = $('#otherCountry').val();
     const USD = $('#usd').val();
-    console.log(USD);
-    console.log(otherCountry);
-
+    
     CurrencyService.getCurrency()
       .then(function(response) {
         calcExchange(response, USD, otherCountry);
-        console.log(response);
       });
 
   });
