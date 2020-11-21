@@ -39,14 +39,16 @@ button[type=submit] {
 }
 
 .results {
+  display: inline-block;
   font-size: 1.5em;
   margin-top: 1.5em;
-  margin-left: 50px;
+  margin-left: 10px;
 }
 
 #image {
   margin-left: 1500px;
-  margin-top: -400px;
+  margin-top: -425px;
+  position: relative;
 }
 
 img {
