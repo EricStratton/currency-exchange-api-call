@@ -52,7 +52,7 @@ Enter an amount in USD and exchange that amount with any one of the currencies a
  Test | Input | Output |
 | :------------| :---------------| :-----------|
 | Currency Exchanger |
-| Take user input USD and exchange with any of the currencies available in the API response | 10USD | 3.7674GBP |
+| Take user input USD and exchange with any of the currencies available in the API response | 10USD | 7.5349GBP |
 | Return message if currency is not available via API response | 10USD | "Sorry this exhange is not currently available" |
 | Return error if API request status is not 200OK'd | 10USD | Error: 404 |
 

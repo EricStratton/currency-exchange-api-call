@@ -32,6 +32,5 @@ $(document).ready(function() {
       .then(function(response) {
         calcExchange(response, USD, otherCountry);
       });
-
   });
 }); 
